@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Zorayr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Zorayr\\.nuget\\packages"
+    ]
+  }
+}
