@@ -10,9 +10,20 @@ namespace EmployeeManagement.Controllers
 {
     public class HomeController : Controller
     {
-        public JsonResult Index()
+        private readonly IEmployeeRepository _employeeRepository;
+        public HomeController(IEmployeeRepository employeeRepository)
         {
-            return Json(new { id=1, name="Progim"});
+            _employeeRepository = employeeRepository;
+        }
+        public string Index()
+        {
+            return _employeeRepository.GetEmployee(1).Name;
+        }
+
+        public IActionResult Details()
+        {
+            Employee model = _employeeRepository.GetEmployee(1);
+            return Json(model);
         }
     }
 }
