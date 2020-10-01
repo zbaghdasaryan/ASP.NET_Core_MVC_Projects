@@ -32,3 +32,4 @@ C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeMan
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.pdb
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.genruntimeconfig.cache
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\EmployeeManagement.csproj.CopyComplete
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.cshtml.g.cs

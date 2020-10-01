@@ -5,25 +5,34 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EmployeeManagement.Models;
+using EmployeeManagement.ViewModels;
 
 namespace EmployeeManagement.Controllers
 {
     public class HomeController : Controller
     {
+        public object MyProperty { get; set; }
         private readonly IEmployeeRepository _employeeRepository;
         public HomeController(IEmployeeRepository employeeRepository)
         {
+
             _employeeRepository = employeeRepository;
         }
-        public string Index()
+        public ViewResult Index()
         {
-            return _employeeRepository.GetEmployee(1).Name;
+            var model= _employeeRepository.GetAllEmployee();
+            return View(model); 
         }
 
-        public IActionResult Details()
+        public ViewResult Details()
         {
-            Employee model = _employeeRepository.GetEmployee(1);
-            return Json(model);
+            HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
+            {
+                Employee = _employeeRepository.GetEmployee(1),
+                PageTitle = "Employee Details"
+            };
+
+            return View(homeDetailsViewModel);
         }
     }
 }
