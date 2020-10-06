@@ -13,18 +13,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\Views\_ViewImports.cshtml"
-using EmployeeManagement;
-
-#line default
-#line hidden
-#line 2 "C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\Views\_ViewImports.cshtml"
-using EmployeeManagement.Models;
-
-#line default
-#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3af35a328bfe0c906f75d04efeba14f80e1f583b", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
