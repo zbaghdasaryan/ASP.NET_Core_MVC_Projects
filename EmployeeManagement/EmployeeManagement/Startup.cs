@@ -22,11 +22,11 @@ namespace EmployeeManagement
 
         public IConfiguration Configuration { get; }
 
-        
+
         public void ConfigureServices(IServiceCollection services)
         {
-           services.AddMvc();
-           services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
+            services.AddMvc();
+            services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -38,11 +38,11 @@ namespace EmployeeManagement
 
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
+            //});
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello Zoro");
-            });          
         }
     }
 }

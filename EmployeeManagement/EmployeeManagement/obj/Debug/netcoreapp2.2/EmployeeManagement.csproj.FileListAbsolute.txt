@@ -29,3 +29,5 @@ C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeMan
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\Views\Home\Details.cshtml.g.cs
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\Views\Home\_ViewStart.cshtml.g.cs
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp2.2\libman.json
