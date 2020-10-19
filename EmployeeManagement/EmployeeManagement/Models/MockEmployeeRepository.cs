@@ -13,9 +13,10 @@ namespace EmployeeManagement.Models
         {
             _employeesList = new List<Employee>()
             {
-                new Employee() { Id=1, Name="Artur", Department=".Net", Email="artur@utaxi.am"},
-                new Employee() { Id=2, Name="Ando", Department="Android", Email="ando@utaxi.am"},
-                new Employee() { Id=3, Name="Edo", Department="ios", Email="edo@utaxi.am"},
+                new Employee() { Id=1, Name="Artur", Department=Dept.IT, Email="artur@utaxi.am"},
+                new Employee() { Id=2, Name="Ando", Department=Dept.IT, Email="ando@utaxi.am"},
+                new Employee() { Id=3, Name="Edo", Department=Dept.IT, Email="edo@utaxi.am"},
+                new Employee() { Id=3, Name="Ani", Department=Dept.HR, Email="edo@utaxi.am"},
             };
         }
 
