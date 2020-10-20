@@ -16,8 +16,15 @@ namespace EmployeeManagement.Models
                 new Employee() { Id=1, Name="Artur", Department=Dept.IT, Email="artur@utaxi.am"},
                 new Employee() { Id=2, Name="Ando", Department=Dept.IT, Email="ando@utaxi.am"},
                 new Employee() { Id=3, Name="Edo", Department=Dept.IT, Email="edo@utaxi.am"},
-                new Employee() { Id=3, Name="Ani", Department=Dept.HR, Email="edo@utaxi.am"},
+                new Employee() { Id=3, Name="Ani", Department=Dept.HR, Email="ani@utaxi.am"},
             };
+        }
+
+        public Employee Add(Employee employee)
+        {
+            employee.Id=_employeesList.Max(e => e.Id) + 1;
+            _employeesList.Add(employee);
+            return employee;
         }
 
         public IEnumerable<Employee> GetAllEmployee()

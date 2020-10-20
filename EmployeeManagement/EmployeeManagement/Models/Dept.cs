@@ -9,6 +9,7 @@ namespace EmployeeManagement.Models
     {
         None,
         HR,
-        IT
+        IT,
+        UI
     }
 }
