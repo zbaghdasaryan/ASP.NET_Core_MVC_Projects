@@ -1,0 +1,2 @@
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.AssemblyInfo.cs
