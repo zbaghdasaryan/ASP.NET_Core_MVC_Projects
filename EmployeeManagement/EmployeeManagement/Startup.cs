@@ -26,9 +26,10 @@ namespace EmployeeManagement
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContextPool<AddDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("EmployeeDBConnection")));
+            services.AddDbContextPool<AppDbContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("EmployeeDBConnection")));
             services.AddMvc();
-            services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
+            //services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
+            services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
