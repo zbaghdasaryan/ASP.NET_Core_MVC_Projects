@@ -5,6 +5,13 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20201028125213_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20201028125213_AddPhotoPathColumn.Designer.cs" />
+    <Compile Remove="Migrations\20201029092831_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20201029092831_AddPhotoPathColumn.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />

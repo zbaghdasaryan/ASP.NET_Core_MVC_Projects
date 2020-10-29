@@ -1,2 +1,9 @@
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.AssemblyInfoInputs.cache
 C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.AssemblyInfo.cs
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\bin\Debug\netstandard2.0\EmployeeManagment.DataAccess.deps.json
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\bin\Debug\netstandard2.0\EmployeeManagment.DataAccess.dll
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\bin\Debug\netstandard2.0\EmployeeManagment.DataAccess.pdb
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.csprojAssemblyReference.cache
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.dll
+C:\Users\Zorayr\source\repos\zbaghdasaryan\ASP.NET_Core_MVC_Projects\EmployeeManagement\EmployeeManagment.DataAccess\obj\Debug\netstandard2.0\EmployeeManagment.DataAccess.pdb
