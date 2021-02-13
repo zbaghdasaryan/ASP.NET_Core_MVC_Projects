@@ -23,14 +23,14 @@ namespace Authentication_Authorization_Manual.Infrastructure
             //    });
             //}
 
-            //if (password.ToLower().Contains(user.UserName.ToLower()))
-            //{
-            //    errors.Add(new IdentityError
-            //    {
-            //        Code = "PasswordContainsUserName",
-            //        Description = "Password cannot contain username"
-            //    });
-            //}
+            if (password.ToLower().Contains(user.UserName.ToLower()))
+            {
+                errors.Add(new IdentityError
+                {
+                    Code = "PasswordContainsUserName",
+                    Description = "Password cannot contain username"
+                });
+            }
 
             if (password.Contains("12345"))
             {
